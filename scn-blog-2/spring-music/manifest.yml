@@ -1,0 +1,11 @@
+---
+applications:
+- name: spring-music
+  memory: 1G
+  random-route: true
+  path: build/libs/spring-music.jar
+  services:
+  - mysql-db
+  env:
+    SPRING_PROFILES_ACTIVE: mysql-cloud
+
