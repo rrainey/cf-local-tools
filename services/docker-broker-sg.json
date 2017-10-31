@@ -1,7 +1,17 @@
 [
     {
     "protocol": "tcp",
+    "destination": "10.244.0.143",
+    "ports": "32768-32800" 
+    },
+    {
+    "protocol": "tcp",
     "destination": "10.244.0.144",
+    "ports": "32768-32800" 
+    },
+    {
+    "protocol": "tcp",
+    "destination": "10.244.0.145",
     "ports": "32768-32800" 
     }
 ]
