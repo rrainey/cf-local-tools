@@ -5,7 +5,7 @@ applications:
   random-route: true
   path: build/libs/spring-music.jar
   services:
-  - mysql-db
+  - postgres-db
   env:
-    SPRING_PROFILES_ACTIVE: mysql-cloud
+    SPRING_PROFILES_ACTIVE: postgres-cloud
 
